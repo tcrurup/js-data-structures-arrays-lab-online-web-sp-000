@@ -23,6 +23,6 @@ function appendDriver(driverName){
 }
 
 function removeLastDriver(){
-  return drivers.splice(0, drivers.length)
+  return drivers.splice(0, drivers.length -1)
 }
 
